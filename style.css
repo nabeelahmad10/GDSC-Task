@@ -1,0 +1,76 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f8ff; 
+}
+
+.container {
+  background-color: #fff; 
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+  text-align: center;
+}
+
+.timer {
+  font-size: 50px;
+  margin-bottom: 20px;
+  color: #3c4858; 
+}
+
+.progress-bar {
+  height: 10px;
+  background-color: #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+#progress {
+  width: 100%;
+  background-color: #28a745; 
+  transition: width 1s ease-in-out;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#custom-time {
+  width: 50px;
+  padding: 5px;
+  background-color: #e0e0e0; 
+  color: #3c4858; 
+  border: 1px solid #ccc; 
+  border-radius: 5px;
+  text-align: center;
+}
+
+#start-timer, #pause-timer, #resume-timer, #reset-timer { 
+  padding: 10px 20px;
+  border: none; 
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff; 
+}
+
+#start-timer {
+  background-color: #28a745; 
+}
+
+#pause-timer { 
+  background-color: #ffc107; 
+}
+
+#resume-timer { 
+  background-color: #4CAF50; 
+}
+
+#reset-timer {
+  background-color: #dc3545; 
+}
